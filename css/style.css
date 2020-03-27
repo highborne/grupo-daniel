@@ -23,7 +23,7 @@
 .nav-link:hover{
   color:#4BE3AD !important;
   text-decoration: underline;
-  font-size: 110%;
+  font-size: 105%;
 }
 .banner{
 	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../src/banner.png");
@@ -51,6 +51,11 @@
   margin-bottom: 50px;
 	color:#fff;
 }
+.botao-banner{
+  padding-bottom: 5%;
+  border-bottom: 5px solid #6D8BD8;
+  padding-left: 0;
+}
 .btn-banner{
   font-family: 'roboto';
   font-weight: bold;
@@ -60,6 +65,12 @@
   opacity: 1;
   width: 260px;
   height: 36px;
+}
+.btn-banner:hover{
+  color: #395EA6;
+  font-weight: bolder;
+  font-size: 102%;
+  text-decoration: underline;
 }
 .text-dark{
   text-align: center;
@@ -119,13 +130,16 @@
 }
 .botao-card{
   font-family: 'roboto';
-  font-weight: bold;
-  background: #4BE3AD 0% 0% no-repeat padding-box;
-  box-shadow: 0px 1px 3px #00000033;
+  background: #4BE3AD;
+  text-transform: uppercase;
   border-radius: 4px;
-  opacity: 1;
   width: 260px;
   height: 36px;
+}
+.botao-card:hover{
+  color: #395EA6;
+  font-size: 102%;
+  text-decoration: underline;
 }
 .card-img-top{
   width: 100%;
@@ -166,9 +180,15 @@
   font-family: 'roboto';
   background: #395EA6;
   color: white;
+  font-weight: bold;
   text-transform: uppercase;
   width: 260px;
   height: 36px;
+}
+.botao-card-1:hover{
+  color: #4BE3AD;
+  font-size: 102%;
+  text-decoration: underline;
 }
 .card-2{
   background-color: #395EA6;
@@ -189,10 +209,16 @@
 .botao-card-2{
   font-family: 'roboto';
   background: #4BE3AD;
-  color: black;
+  color: white;
+  font-weight: bold;
   text-transform: uppercase;
   width: 260px;
   height: 36px;
+}
+.botao-card-2:hover{
+  color: #395EA6;
+  font-size: 102%;
+  text-decoration: underline;
 }
 .card-3{
   background-color: #FFFFFF;
@@ -214,10 +240,17 @@
   font-family: 'roboto';
   background: #395EA6;
   color: white;
+  font-weight: bold;
   text-transform: uppercase;
   width: 260px;
   height: 36px;
 }
+.botao-card-3:hover{
+  color: #4BE3AD;
+  font-size: 102%;
+  text-decoration: underline;
+}
+
 .img-noticias{
   width: 75%;
 }
