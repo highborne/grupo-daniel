@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.navbar{
+  height: 60px;
+  padding-right: 5%;
+}
+.navbar-brand{
+  padding-left: 5%;
+}
+.nav-item{
+  text-align: center;
+  font:-size: 1rem;
+  font-family: 'roboto';
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.nav-link{
+  color: #003577 !important ;
+  font-weight: 600;
+}
+.banner{
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../src/banner.png");
+  background-size: cover;
+  background-position: center center;
+  background-position-y: -350px;
+  height: 537px;
+}
+.banner-text{
+	padding:100px 0 150px 0;
+}
+.banner-heading{
+	font-family: 'roboto';
+	font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 75px;
+  margin-bottom: 30px;
+	color:#fff;
+}
+.banner-sub-heading{
+	font-family: 'roboto';
+	font-size: 1rem;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+	color:#fff;
+}
+.btn-banner{
+  font-family: 'roboto';
+  font-weight: bold;
+  background: #4BE3AD 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 3px #00000033;
+  border-radius: 4px;
+  opacity: 1;
+  width: 260px;
+  height: 36px;
+}
+.text-dark{
+  text-align: center;
+  font-family: 'roboto';
+  font-size: 1rem;
+  letter-spacing: 1.75px;
+  color: #000000DE;
+  text-transform: uppercase;
+}
+
+.missao{
+  background: #F5F5F5;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo-missao{
+  color: #003577;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: left;
+}
+.texto-missao{
+  color: #00000098;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.ajudar{
+  background: url("../src/ornamentos_Grupo_Daniel.svg");
+  min-height: 559px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5% 10%;
+}
+.card-ajudar{
+  margin-right: 3%;
+}
+.card-body{
+    background-color: #395EA6;
+}
+.card-title{
+  font-family: 'roboto';
+  color: white;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.card-text{
+  font-family: 'roboto';
+  color: white;
+  font-size: 1rem;
+  min-height: 100px;
+  padding: 1%;
+}
+.botao-card{
+  font-family: 'roboto';
+  font-weight: bold;
+  background: #4BE3AD 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 3px #00000033;
+  border-radius: 4px;
+  opacity: 1;
+  width: 260px;
+  height: 36px;
+
+}
+.card-img-top{
+  width: 100%;
+  height: auto;
+}
+
+.noticias{
+  background-color: #F5F5F5;
+
+}
+.noticias-titulo{
+  font-family: 'roboto';
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #003577;
+  padding: 5% 0 0 0;
+}
+.card-1{
+  background-color: #4BE3AD;
+  border-radius: 15px;
+  padding: 3%;
+}
+.card-title-1{
+  color: #395EA6;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.card-2{
+  background-color: #395EA6;
+  border-radius: 15px;
+}
+.card-3{
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+.img-noticias{
+  width: 75%;
+}
+.noticias-body{
+  height: 85%;
+  padding: 5%;
+}
+
+
+.contato{
+  background: url("../src/ornamentos_Grupo_Daniel.svg");
+  background-color: #003577;
+  height: 442px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sobre{
+
+}
+.footer{
+  height: 339px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
