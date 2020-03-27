@@ -20,6 +20,11 @@
   color: #003577 !important ;
   font-weight: 600;
 }
+.nav-link:hover{
+  color:#4BE3AD !important;
+  text-decoration: underline;
+  font-size: 110%;
+}
 .banner{
 	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../src/banner.png");
   background-size: cover;
@@ -41,9 +46,9 @@
 .banner-sub-heading{
 	font-family: 'roboto';
 	font-size: 1rem;
-    font-weight: 300;
-    line-height: 30px;
-    margin-bottom: 50px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 50px;
 	color:#fff;
 }
 .btn-banner{
@@ -221,7 +226,6 @@
   padding: 5%;
 }
 
-
 .contato{
   background: url("../src/ornamentos_Grupo_Daniel.svg");
   background-color: #003577;
@@ -230,12 +234,133 @@
   flex-direction: column;
   justify-content: center;
 }
-.sobre{
+.titulo-contato{
+  text-align: left;
+  font-family: 'Roboto';
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  color: white;
+}
+.texto-contato{
+  text-align: left;
+  font-family: 'roboto';
+  font-size: 1rem;
+  letter-spacing: 0.8px;
+  color: white;
+}
+#mce-FNAME{
+  width: 328px;
+  height: 35px;
+  margin: 2.5% 0;
+  border-radius: 5px;
+  color: white;
+  font-family: 'roboto';
+  font-size: 1rem;
+  background-color: #124381;
+  border: 1px solid #124381;
+  padding: 15px;
+}
+#mce-EMAIL{
+  width: 328px;
+  height: 35px;
+  margin: 2.5% 0;
+  border-radius: 5px;
+  color: white;
+  font-family: 'roboto';
+  font-size: 1rem;
+  background-color: #124381;
+  border: 1px solid #124381;
+  padding: 15px;
+}
+#mce-MMERGE2{
+  width: 328px;
+  height: 135px;
+  margin: 2.5% 0;
+  border-radius: 5px;
+  color: white;
+  font-family: 'roboto';
+  font-size: 1rem;
+  background-color: #124381;
+  border: 1px solid #124381;
+  padding: 15px;
+}
+.button{
+  font-family: 'roboto';
+  background: #4BE3AD;
+  border: none;
+  border-radius: 5px;
+  color: #00000098;
+  text-transform: uppercase;
+  width: 90%;
+  height: 36px;
 
 }
+
+.sobre{
+  background-color: #F5F5F5;
+  padding: 2.5%;
+}
+.sobre-esquerda{
+  padding: 2.5%;
+}
+.sobre-direita{
+  padding: 2.5%;
+}
+.missao-left{
+  padding-left: 0;
+}
+.missao-right{
+  padding-left: 0;
+}
+.titulo-sobre{
+  font-family: 'roboto';
+  color: #000000DE;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.texto-sobre{
+  font-family: 'roboto';
+  color: #00000098;
+  font-size: 1rem;
+  text-align: left;
+}
+
 .footer{
-  height: 339px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.footer-left{
+  background-color: #003577;
+  padding: 2.5%;
+}
+.titulo-footer-left{
+  color: white;
+  font-family: 'roboto';
+  font-size: 1rem;
+  font-weight: bold;
+}
+.btn-footer{
+  font-family: 'roboto';
+  font-weight: bold;
+  background: #395EA6;
+  margin: 2.5%;
+  width: 260px;
+  height: 36px;
+}
+
+.footer-right{
+  background-color: #6D8BD8;
+  padding: 5% 2.5%;
+}
+.link-footer{
+  color: #000000;
+  font-family: 'roboto';
+  text-decoration: underline;
+}
+.endereco-footer{
+  color: #000000;
+  font-family: 'roboto';
 }
