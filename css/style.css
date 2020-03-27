@@ -121,7 +121,6 @@
   opacity: 1;
   width: 260px;
   height: 36px;
-
 }
 .card-img-top{
   width: 100%;
@@ -130,7 +129,9 @@
 
 .noticias{
   background-color: #F5F5F5;
-
+}
+.card{
+  margin-bottom: 5%;
 }
 .noticias-titulo{
   font-family: 'roboto';
@@ -150,13 +151,67 @@
   font-size: 1.8rem;
   font-weight: bold;
 }
+.card-text-1{
+  color: #395EA6;
+  font-size: 1rem;
+  min-height: 100px;
+  padding: 1%;
+}
+.botao-card-1{
+  font-family: 'roboto';
+  background: #395EA6;
+  color: white;
+  text-transform: uppercase;
+  width: 260px;
+  height: 36px;
+}
 .card-2{
   background-color: #395EA6;
   border-radius: 15px;
+  padding: 3%;
+}
+.card-title-2{
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.card-text-2{
+  color: white;
+  font-size: 1rem;
+  min-height: 100px;
+  padding: 1%;
+}
+.botao-card-2{
+  font-family: 'roboto';
+  background: #4BE3AD;
+  color: black;
+  text-transform: uppercase;
+  width: 260px;
+  height: 36px;
 }
 .card-3{
   background-color: #FFFFFF;
   border-radius: 15px;
+  padding: 3%;
+}
+.card-title-3{
+  color: #395EA6;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.card-text-3{
+  color: #395EA6;
+  font-size: 1rem;
+  min-height: 100px;
+  padding: 1%;
+}
+.botao-card-3{
+  font-family: 'roboto';
+  background: #395EA6;
+  color: white;
+  text-transform: uppercase;
+  width: 260px;
+  height: 36px;
 }
 .img-noticias{
   width: 75%;
