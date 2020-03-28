@@ -206,7 +206,7 @@
   color: #395EA6;
   font-size: 1rem;
   min-height: 100px;
-  padding: 1%;
+  padding: 1% 0;
 }
 .botao-card-1{
   font-family: 'roboto';
@@ -236,7 +236,7 @@
   color: white;
   font-size: 1rem;
   min-height: 100px;
-  padding: 1%;
+  padding: 1% 0;
 }
 .botao-card-2{
   font-family: 'roboto';
@@ -266,7 +266,7 @@
   color: #395EA6;
   font-size: 1rem;
   min-height: 100px;
-  padding: 1%;
+  padding: 1% 0;
 }
 .botao-card-3{
   font-family: 'roboto';
