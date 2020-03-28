@@ -103,7 +103,11 @@
   	color:#fff;
   }
 }
-
+@media (max-width: 768px) {
+  p{
+    text-align: justify !important;
+  }
+}
 .missao{
   background: #F5F5F5;
   min-height: 400px;
@@ -163,7 +167,7 @@
   background: #4BE3AD;
   text-transform: uppercase;
   border-radius: 4px;
-  width: 260px;
+  width: 75%;
   height: 36px;
 }
 .botao-card:hover{
@@ -421,6 +425,9 @@
   margin: 2.5%;
   width: 260px;
   height: 36px;
+}
+.btn-footer:hover{
+  background: #4BE3AD;
 }
 .footer-right{
   background-color: #6D8BD8;
