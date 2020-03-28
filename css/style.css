@@ -422,12 +422,14 @@
   font-family: 'roboto';
   font-weight: bold;
   background: #395EA6;
+  color: white;
   margin: 2.5%;
   width: 260px;
   height: 36px;
 }
 .btn-footer:hover{
   background: #4BE3AD;
+  color: white !important;
 }
 .footer-right{
   background-color: #6D8BD8;
