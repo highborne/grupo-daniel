@@ -431,6 +431,11 @@
   font-family: 'roboto';
   text-decoration: underline;
 }
+.link-footer:hover{
+  color: #4BE3AD !important;
+  font-family: 'roboto';
+  text-decoration: none;
+}
 .endereco-footer{
   color: #000000;
   font-family: 'roboto';
